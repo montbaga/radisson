@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>db</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>107ee88e-8c7f-4019-b27d-9ed71201b19f</dataFileGUID>
+   <dataSourceUrl>jdbc:mysql://sql7.freesqldatabase.com:3306/sql7640720</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>akltSzdBOVY0NA==</password>
+   <query>SELECT `fullname`, `email`, `password`, `cpassword` FROM `loginlist_db`</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>sql7640720</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
