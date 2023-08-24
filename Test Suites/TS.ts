@@ -25,7 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/loginlist</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>f5fdcb4b-1ea5-444b-9654-6f23c0619286</testDataLinkId>
          <type>DATA_COLUMN</type>

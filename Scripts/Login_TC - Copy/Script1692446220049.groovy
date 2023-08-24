@@ -33,5 +33,5 @@ WebUI.click(findTestObject('Object Repository/Sign_In/Page_Zack Market/button_Za
 
 WebUI.verifyElementText(findTestObject('Object Repository/Sign_In/Page_Zack Market/a_Logout'), 'Logout')
 
-WebUI.closeBrowser()
+WS.sendRequest(findTestObject('testweb'))
 
