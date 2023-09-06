@@ -21,7 +21,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "738cc0d5-f3c5-467f-8a3f-527debd82d1f",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -29,8 +28,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "div",
     text: "",
     pageUrl: "https://demo-store.katalon.com/",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.click({
     type: "Web",
@@ -49,7 +46,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "2917db3f-dc74-43ce-b611-ce075d948c59",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -57,40 +53,7 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "input",
     text: "",
     pageUrl: "https://demo-store.katalon.com/signin",
-    parentIframe: null,
-    shadowRoot: null,
   });
-  await web.setText(
-    {
-      type: "Web",
-      id: "3973c046-37ea-4234-8ecb-f45cd634cf7c",
-      attributes: { type: "text", name: "email" },
-      childIndex: 1,
-      hashes: { "md5.v1": "a4b1e2ceae9524deeb9eb7caa7711f26" },
-      name: "input - email",
-      selectors: [
-        {
-          id: "36b8af1c-eff8-45e7-b8c9-056e27b4cd04",
-          type: "CSS",
-          value: '[name="email"]',
-          isDefault: true,
-        },
-        {
-          id: "2917db3f-dc74-43ce-b611-ce075d948c59",
-          type: "Attribute",
-          value: null,
-          isDefault: true,
-        },
-      ],
-      selectorType: "CSS",
-      tag: "input",
-      text: "",
-      pageUrl: "https://demo-store.katalon.com/signin",
-      parentIframe: null,
-      shadowRoot: null,
-    },
-    "bagati.monty@gmail.com"
-  );
   await web.click({
     type: "Web",
     id: "3fe6cdbb-6c3f-4e0d-bc3f-d73aa4cefb14",
@@ -108,7 +71,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "e3edba7e-a942-4f01-888b-45b8bf6896b2",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -116,8 +78,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "input",
     text: "",
     pageUrl: "https://demo-store.katalon.com/signin",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.setEncryptedText(
     {
@@ -137,7 +97,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
         {
           id: "e3edba7e-a942-4f01-888b-45b8bf6896b2",
           type: "Attribute",
-          value: null,
           isDefault: true,
         },
       ],
@@ -145,8 +104,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       tag: "input",
       text: "",
       pageUrl: "https://demo-store.katalon.com/signin",
-      parentIframe: null,
-      shadowRoot: null,
     },
     "d80733c604279766751e1f67a89d113e-U2FsdGVkX1/58xJqmDRp2m1yE8hbQm2fB/6jiyUN/nI="
   );
@@ -171,7 +128,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "1e071d6c-247a-401c-a1e8-957593128eff",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -179,8 +135,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "input",
     text: "",
     pageUrl: "https://demo-store.katalon.com/signin",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.click({
     type: "Web",
@@ -204,7 +158,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "6f48e3d6-0638-4786-bb81-b327a94fd719",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -212,8 +165,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "button",
     text: "",
     pageUrl: "https://demo-store.katalon.com/dashboard",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.click({
     type: "Web",
@@ -238,7 +189,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "4be2f13e-5319-46df-bda2-44e3758edde8",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -246,8 +196,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "li",
     text: "Logout",
     pageUrl: "https://demo-store.katalon.com/dashboard",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.click({
     type: "Web",
@@ -269,7 +217,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
       {
         id: "c0e10e25-afbc-46e4-ba7b-f09f8c7c8cb7",
         type: "Attribute",
-        value: null,
         isDefault: true,
       },
     ],
@@ -277,8 +224,6 @@ export default katalon.testCase("New Test Case", async ({ local, web }) => {
     tag: "img",
     text: "",
     pageUrl: "https://demo-store.katalon.com/dashboard",
-    parentIframe: null,
-    shadowRoot: null,
   });
   await web.takeScreenshot();
 });
